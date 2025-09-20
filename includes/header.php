@@ -4,7 +4,7 @@
       <!-- Logo -->
       <div class="flex-shrink-0">
         <h1 class="text-2xl font-bold bg-clip-text">
-          Cold cortex
+          Cold Cortex
         </h1>
       </div>
       
