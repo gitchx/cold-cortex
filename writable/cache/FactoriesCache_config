@@ -21,6 +21,7 @@
     'Config\\Logger' => 'Config\\Logger',
     'Config\\View' => 'Config\\View',
     'Config\\Toolbar' => 'Config\\Toolbar',
+    'Config\\CURLRequest' => 'Config\\CURLRequest',
   ),
   'instances' => 
   array (
@@ -522,6 +523,10 @@
         5 => 'json',
         6 => 'env',
       ),
+    )),
+    'Config\\CURLRequest' => 
+    \Config\CURLRequest::__set_state(array(
+       'shareOptions' => false,
     )),
   ),
 );
