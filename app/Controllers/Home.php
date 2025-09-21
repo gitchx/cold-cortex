@@ -6,9 +6,9 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        // API設定
+        // .envからAPIキーを取得
+        $api_key = getenv('API_KEY');
         $api_url = "https://phps.sakura.ne.jp/cms/api/content/item/Home";
-        $api_key = "API-61fa65c0959cbef89754d6a70cc215e817469f13";
 
         // APIリクエスト
         $client = \Config\Services::curlrequest();
