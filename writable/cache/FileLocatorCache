@@ -1,0 +1,225 @@
+<?php return array (
+  'search' => 
+  array (
+    'Config/Services' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/opt/homebrew/var/www/cold-cortex/app/Config/Services.php',
+          1 => '/opt/homebrew/var/www/cold-cortex/system/Config/Services.php',
+        ),
+      ),
+    ),
+    'Config/Registrar.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+        ),
+      ),
+    ),
+    'Helpers/kint_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/opt/homebrew/var/www/cold-cortex/system/Helpers/kint_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/url_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/opt/homebrew/var/www/cold-cortex/system/Helpers/url_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/filesystem_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/opt/homebrew/var/www/cold-cortex/system/Helpers/filesystem_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/array_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/opt/homebrew/var/www/cold-cortex/system/Helpers/array_helper.php',
+        ),
+      ),
+    ),
+    'Config/Routes.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/opt/homebrew/var/www/cold-cortex/app/Config/Routes.php',
+        ),
+      ),
+    ),
+    'Config/Events.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/opt/homebrew/var/www/cold-cortex/app/Config/Events.php',
+        ),
+      ),
+    ),
+    'Config/Filters.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/opt/homebrew/var/www/cold-cortex/app/Config/Filters.php',
+          1 => '/opt/homebrew/var/www/cold-cortex/system/Config/Filters.php',
+        ),
+      ),
+    ),
+  ),
+  'findQualifiedNameFromPath' => 
+  array (
+    '/opt/homebrew/var/www/cold-cortex/app/Config/Services.php' => 'Config\\Services',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Cache/ClearCache.php' => 'CodeIgniter\\Commands\\Cache\\ClearCache',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Cache/InfoCache.php' => 'CodeIgniter\\Commands\\Cache\\InfoCache',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/CreateDatabase.php' => 'CodeIgniter\\Commands\\Database\\CreateDatabase',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/Migrate.php' => 'CodeIgniter\\Commands\\Database\\Migrate',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/MigrateRefresh.php' => 'CodeIgniter\\Commands\\Database\\MigrateRefresh',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/MigrateRollback.php' => 'CodeIgniter\\Commands\\Database\\MigrateRollback',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/MigrateStatus.php' => 'CodeIgniter\\Commands\\Database\\MigrateStatus',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/Seed.php' => 'CodeIgniter\\Commands\\Database\\Seed',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/ShowTableInfo.php' => 'CodeIgniter\\Commands\\Database\\ShowTableInfo',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Encryption/GenerateKey.php' => 'CodeIgniter\\Commands\\Encryption\\GenerateKey',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/CellGenerator.php' => 'CodeIgniter\\Commands\\Generators\\CellGenerator',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/CommandGenerator.php' => 'CodeIgniter\\Commands\\Generators\\CommandGenerator',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/ConfigGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ConfigGenerator',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/ControllerGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ControllerGenerator',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/EntityGenerator.php' => 'CodeIgniter\\Commands\\Generators\\EntityGenerator',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/FilterGenerator.php' => 'CodeIgniter\\Commands\\Generators\\FilterGenerator',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/MigrationGenerator.php' => 'CodeIgniter\\Commands\\Generators\\MigrationGenerator',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/ModelGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ModelGenerator',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/ScaffoldGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ScaffoldGenerator',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/SeederGenerator.php' => 'CodeIgniter\\Commands\\Generators\\SeederGenerator',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/TestGenerator.php' => 'CodeIgniter\\Commands\\Generators\\TestGenerator',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/ValidationGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ValidationGenerator',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/cell.tpl.php' => false,
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/cell_view.tpl.php' => false,
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/command.tpl.php' => false,
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/config.tpl.php' => false,
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/controller.tpl.php' => false,
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/entity.tpl.php' => false,
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/filter.tpl.php' => false,
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/migration.tpl.php' => false,
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/model.tpl.php' => false,
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/seeder.tpl.php' => false,
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/test.tpl.php' => false,
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/validation.tpl.php' => false,
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Help.php' => 'CodeIgniter\\Commands\\Help',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Housekeeping/ClearDebugbar.php' => 'CodeIgniter\\Commands\\Housekeeping\\ClearDebugbar',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Housekeeping/ClearLogs.php' => 'CodeIgniter\\Commands\\Housekeeping\\ClearLogs',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/ListCommands.php' => 'CodeIgniter\\Commands\\ListCommands',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Server/Serve.php' => 'CodeIgniter\\Commands\\Server\\Serve',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Translation/LocalizationFinder.php' => 'CodeIgniter\\Commands\\Translation\\LocalizationFinder',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Translation/LocalizationSync.php' => 'CodeIgniter\\Commands\\Translation\\LocalizationSync',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/ConfigCheck.php' => 'CodeIgniter\\Commands\\Utilities\\ConfigCheck',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Environment.php' => 'CodeIgniter\\Commands\\Utilities\\Environment',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/FilterCheck.php' => 'CodeIgniter\\Commands\\Utilities\\FilterCheck',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Namespaces.php' => 'CodeIgniter\\Commands\\Utilities\\Namespaces',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Optimize.php' => 'CodeIgniter\\Commands\\Utilities\\Optimize',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/PhpIniCheck.php' => 'CodeIgniter\\Commands\\Utilities\\PhpIniCheck',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Publish.php' => 'CodeIgniter\\Commands\\Utilities\\Publish',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes.php' => 'CodeIgniter\\Commands\\Utilities\\Routes',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/AutoRouteCollector.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\AutoRouteCollector',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/AutoRouterImproved/AutoRouteCollector.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\AutoRouterImproved\\AutoRouteCollector',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReader.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\AutoRouterImproved\\ControllerMethodReader',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/ControllerFinder.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\ControllerFinder',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/ControllerMethodReader.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\ControllerMethodReader',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/FilterCollector.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\FilterCollector',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/FilterFinder.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\FilterFinder',
+    '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/SampleURIGenerator.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\SampleURIGenerator',
+  ),
+  'listFiles' => 
+  array (
+    'Commands/' => 
+    array (
+      0 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Cache/ClearCache.php',
+      1 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Cache/InfoCache.php',
+      2 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/CreateDatabase.php',
+      3 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/Migrate.php',
+      4 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/MigrateRefresh.php',
+      5 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/MigrateRollback.php',
+      6 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/MigrateStatus.php',
+      7 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/Seed.php',
+      8 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Database/ShowTableInfo.php',
+      9 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Encryption/GenerateKey.php',
+      10 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/CellGenerator.php',
+      11 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/CommandGenerator.php',
+      12 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/ConfigGenerator.php',
+      13 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/ControllerGenerator.php',
+      14 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/EntityGenerator.php',
+      15 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/FilterGenerator.php',
+      16 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/MigrationGenerator.php',
+      17 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/ModelGenerator.php',
+      18 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/ScaffoldGenerator.php',
+      19 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/SeederGenerator.php',
+      20 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/TestGenerator.php',
+      21 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/ValidationGenerator.php',
+      22 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/cell.tpl.php',
+      23 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/cell_view.tpl.php',
+      24 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/command.tpl.php',
+      25 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/config.tpl.php',
+      26 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/controller.tpl.php',
+      27 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/entity.tpl.php',
+      28 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/filter.tpl.php',
+      29 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/migration.tpl.php',
+      30 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/model.tpl.php',
+      31 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/seeder.tpl.php',
+      32 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/test.tpl.php',
+      33 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Generators/Views/validation.tpl.php',
+      34 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Help.php',
+      35 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Housekeeping/ClearDebugbar.php',
+      36 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Housekeeping/ClearLogs.php',
+      37 => '/opt/homebrew/var/www/cold-cortex/system/Commands/ListCommands.php',
+      38 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Server/Serve.php',
+      39 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Translation/LocalizationFinder.php',
+      40 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Translation/LocalizationSync.php',
+      41 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/ConfigCheck.php',
+      42 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Environment.php',
+      43 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/FilterCheck.php',
+      44 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Namespaces.php',
+      45 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Optimize.php',
+      46 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/PhpIniCheck.php',
+      47 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Publish.php',
+      48 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes.php',
+      49 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/AutoRouteCollector.php',
+      50 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/AutoRouterImproved/AutoRouteCollector.php',
+      51 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReader.php',
+      52 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/ControllerFinder.php',
+      53 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/ControllerMethodReader.php',
+      54 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/FilterCollector.php',
+      55 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/FilterFinder.php',
+      56 => '/opt/homebrew/var/www/cold-cortex/system/Commands/Utilities/Routes/SampleURIGenerator.php',
+    ),
+  ),
+  'getClassname' => 
+  array (
+    '/opt/homebrew/var/www/cold-cortex/app/Config/Filters.php' => 'Config\\Filters',
+    '/opt/homebrew/var/www/cold-cortex/system/Config/Filters.php' => 'CodeIgniter\\Config\\Filters',
+  ),
+);
