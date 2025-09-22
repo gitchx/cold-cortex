@@ -14,8 +14,13 @@
       <nav class="md:block">
         <ul class="flex space-x-8">
           <li>
-            <a href="{{ route('home') }}" class="hover:text-black transition-colors duration-200 font-medium pr-10">
+            <a href="{{ route('home') }}" class="hover:text-gray-300 transition-colors duration-200 font-medium pr-10">
               Home
+            </a>
+          </li>
+          <li>
+            <a href="{{ route('blog') }}" class="hover:text-gray-300 transition-colors duration-200 font-medium pr-10">
+              Blog
             </a>
           </li>
         </ul>

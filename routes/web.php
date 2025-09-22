@@ -9,6 +9,7 @@ use App\Http\Controllers\HomeController;
 # })->name('welcome');
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
 
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('dashboard', function () {
