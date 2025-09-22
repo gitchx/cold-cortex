@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
+<body class="bg-white text-black">
+  <div class="container mx-auto px-4">
+
     <h1 class="text-2xl font-bold text-center mt-20 font-mono">
         {{ $title }}
     </h1>
