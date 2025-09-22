@@ -9,7 +9,7 @@
   <img class="w-70 mx-auto pt-8 rounded-full" src="{{ asset('dist/img/cold_cortex.jpg') }}" alt="Logo">
   <div class="text-center mt-8 max-w-3xl mx-auto font-mono text-xs">
     @if (!empty($description))
-      {{ $description }}
+      {!! str_replace('<p>', '<p class="mb-3">', $description) !!}
     @else
       <div class="text-red-500 mb-2">APIから説明文を取得できませんでした。</div>
     @endif

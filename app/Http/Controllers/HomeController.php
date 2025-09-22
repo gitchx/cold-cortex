@@ -10,7 +10,9 @@ class HomeController extends Controller
     public function index()
     {
         $api_key = env('API_KEY');
-        $api_url = "https://phps.sakura.ne.jp/cms/api/content/item/Home";
+        # dd($api_key);
+
+        $api_url = "https://php.x0.com/cms/api/content/item/Home";
 
         $description = '';
 
@@ -18,7 +20,7 @@ class HomeController extends Controller
             'accept' => 'application/json',
             'api-key' => $api_key,
         ])->get($api_url);
-
+        # dd($response->json());
         if ($response->ok()) {
             $json = $response->json();
             if (isset($json['Description'])) {
