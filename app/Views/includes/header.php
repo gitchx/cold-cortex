@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Cold Cortex</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./dist/styles.css" rel="stylesheet">
+</head>
 <header class="bg-black text-white shadow-lg border-b-2 border-slate-600">
   <div class="max-w-7xl mx-auto px-4">
     <div class="flex justify-between items-center h-16 font-mono">
@@ -38,3 +46,5 @@
     </div>
   </div>
 </header>
+<body class="bg-black text-white">
+  <div class="container mx-auto px-4">
