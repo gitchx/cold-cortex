@@ -28,7 +28,7 @@ class BlogController extends Controller
 
     public function show($id)
     {
-        $api_url = "https://cms.mixkey.studio/api/content/item/Blog/$id";
+        $api_url = "https://coldcortex.wavbits.com/cms/api/content/item/Blog/$id";
         $api_key = env('API_KEY');
 
         $title = '';
