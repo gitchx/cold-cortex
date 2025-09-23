@@ -9,7 +9,7 @@ class BlogController extends Controller
 {
     public function index()
     {
-        $api_url = "https://php.x0.com/cms/api/content/items/Blog";
+        $api_url = "https://cms.mixkey.studio/api/content/items/Blog";
         $api_key = env('API_KEY');
 
         $blogs = [];
@@ -28,7 +28,7 @@ class BlogController extends Controller
 
     public function show($id)
     {
-        $api_url = "https://php.x0.com/cms/api/content/item/Blog/$id";
+        $api_url = "https://cms.mixkey.studio/api/content/item/Blog/$id";
         $api_key = env('API_KEY');
 
         $title = '';
