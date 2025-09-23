@@ -12,7 +12,7 @@ class HomeController extends Controller
         $api_key = env('API_KEY');
         # dd($api_key);
 
-        $api_url = "https://coldcortex.wavbit.com/cms/api/content/item/Home";
+        $api_url = "https://coldcortex.wavbits.com/cms/api/content/item/Home";
 
         $description = '';
 
